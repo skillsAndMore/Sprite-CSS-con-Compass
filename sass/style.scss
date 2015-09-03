@@ -4,7 +4,16 @@
 //Importo le immagini
 @import "servizi/*.png";
 
+//Creo le classi per le icone
+@include all-servizi-sprites;
+
 body{
   margin: 0;
   padding: 0;
+}
+
+span{
+  display: inline-block;
+  height: 64px;
+  width: 64px;
 }
