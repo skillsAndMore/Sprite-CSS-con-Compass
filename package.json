@@ -1,0 +1,16 @@
+{
+  "name": "sprite-sass",
+  "version": "1.0.0",
+  "description": "Esperimenti con le immagini Sprite e Compass ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea Barghigiani",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^1.0.3",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
