@@ -4,8 +4,13 @@
 //Importo le immagini
 @import "servizi/*.png";
 
-//Creo le classi per le icone
-@include all-servizi-sprites;
+//Creo le classi personalizzate per le icone
+.drive{ @include servizi-sprite(drive); }
+.foto{ @include servizi-sprite(foto); }
+.google{ @include servizi-sprite(google); }
+.mail{ @include servizi-sprite(mail); }
+.play{ @include servizi-sprite(play); }
+.plus{ @include servizi-sprite(plus); }
 
 body{
   margin: 0;

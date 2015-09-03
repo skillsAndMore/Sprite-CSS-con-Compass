@@ -1,46 +1,46 @@
 /* line 88, servizi/*.png */
-.servizi-sprite, .servizi-drive, .servizi-foto, .servizi-google, .servizi-mail, .servizi-play, .servizi-plus {
+.servizi-sprite, .drive, .foto, .google, .mail, .play, .plus {
   background-image: url('img/servizi-sb200838edf.png');
   background-repeat: no-repeat;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.servizi-drive {
+/* line 8, sass/style.scss */
+.drive {
   background-position: 0 0;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.servizi-foto {
+/* line 9, sass/style.scss */
+.foto {
   background-position: 0 -64px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.servizi-google {
+/* line 10, sass/style.scss */
+.google {
   background-position: 0 -128px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.servizi-mail {
+/* line 11, sass/style.scss */
+.mail {
   background-position: 0 -192px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.servizi-play {
+/* line 12, sass/style.scss */
+.play {
   background-position: 0 -256px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.servizi-plus {
+/* line 13, sass/style.scss */
+.plus {
   background-position: 0 -320px;
 }
 
-/* line 10, sass/style.scss */
+/* line 15, sass/style.scss */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* line 15, sass/style.scss */
+/* line 20, sass/style.scss */
 span {
   display: inline-block;
   height: 64px;
