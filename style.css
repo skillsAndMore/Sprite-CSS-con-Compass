@@ -1,46 +1,46 @@
 /* line 88, servizi/*.png */
 .servizi-sprite, .drive, .foto, .google, .mail, .play, .plus {
-  background-image: url('img/servizi-sb200838edf.png');
+  background-image: url('img/servizi-s08ef8bd0bc.png');
   background-repeat: no-repeat;
 }
 
-/* line 8, sass/style.scss */
-.drive {
-  background-position: 0 0;
-}
-
-/* line 9, sass/style.scss */
-.foto {
-  background-position: 0 -64px;
-}
-
-/* line 10, sass/style.scss */
-.google {
-  background-position: 0 -128px;
-}
-
 /* line 11, sass/style.scss */
-.mail {
-  background-position: 0 -192px;
-}
-
-/* line 12, sass/style.scss */
-.play {
-  background-position: 0 -256px;
-}
-
-/* line 13, sass/style.scss */
-.plus {
+.drive {
   background-position: 0 -320px;
 }
 
+/* line 12, sass/style.scss */
+.foto {
+  background-position: -64px -256px;
+}
+
+/* line 13, sass/style.scss */
+.google {
+  background-position: -128px -192px;
+}
+
+/* line 14, sass/style.scss */
+.mail {
+  background-position: -192px -128px;
+}
+
 /* line 15, sass/style.scss */
+.play {
+  background-position: -256px -64px;
+}
+
+/* line 16, sass/style.scss */
+.plus {
+  background-position: -320px 0;
+}
+
+/* line 18, sass/style.scss */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* line 20, sass/style.scss */
+/* line 23, sass/style.scss */
 span {
   display: inline-block;
   height: 64px;

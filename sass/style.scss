@@ -1,6 +1,9 @@
 //Importo Compass
 @import "compass";
 
+//Definisco la direzione
+$servizi-layout: 'diagonal';
+
 //Importo le immagini
 @import "servizi/*.png";
 
