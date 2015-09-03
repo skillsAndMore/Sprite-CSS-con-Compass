@@ -9,7 +9,7 @@ module.exports = function(grunt){
                     sassDir: 'sass',
                     cssDir: '.',
                     imagesDir: 'img/',
-                    outputStyle: 'compressed'
+                    outputStyle: 'expand'
                 }
             }
         },
