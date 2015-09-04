@@ -4,17 +4,30 @@
 //Definisco la direzione
 $servizi-layout: 'diagonal';
 
-//Importo le immagini
-@import "servizi/*.png";
+/* Creazione di una mappa sprite */
+$servizi: sprite-map("servizi/*.png");
 
 //Creo le classi personalizzate per le icone
-.drive{ @include servizi-sprite(drive); }
-.foto{ @include servizi-sprite(foto); }
-.google{ @include servizi-sprite(google); }
-.mail{ @include servizi-sprite(mail); }
-.play{ @include servizi-sprite(play); }
-.plus{ @include servizi-sprite(plus); }
+.drive{ background: sprite($servizi, drive); }
+.foto{ background: sprite($servizi, foto); }
+.google{ background: sprite($servizi, google); }
+.mail{ background: sprite($servizi, mail); }
+.play{ background: sprite($servizi, play); }
+.plus{ background: sprite($servizi, plus); }
 
+/*
+  Importazione delle immagini usando mixin dipendenti dal nome della cartella
+  //Importo le immagini
+  @import "servizi/*.png";
+
+  //Creo le classi personalizzate per le icone
+  .drive{ @include servizi-sprite(drive); }
+  .foto{ @include servizi-sprite(foto); }
+  .google{ @include servizi-sprite(google); }
+  .mail{ @include servizi-sprite(mail); }
+  .play{ @include servizi-sprite(play); }
+  .plus{ @include servizi-sprite(plus); }
+*/
 body{
   margin: 0;
   padding: 0;

@@ -12,5 +12,13 @@
     "grunt": "^0.4.5",
     "grunt-contrib-compass": "^1.0.3",
     "grunt-contrib-watch": "^0.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skillsAndMore/Sprite-CSS-con-Compass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skillsAndMore/Sprite-CSS-con-Compass/issues"
+  },
+  "homepage": "https://github.com/skillsAndMore/Sprite-CSS-con-Compass#readme"
 }

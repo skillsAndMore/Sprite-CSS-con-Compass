@@ -1,2 +1,5 @@
 
 --time/style.css
+
+*.scssc
+node_modules/
